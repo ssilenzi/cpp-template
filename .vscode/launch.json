@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug helloworld",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/helloworld",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "miDebuggerPath": "${env:HOME}/dev/lldb-mi/install/bin/lldb-mi",
+            "targetArchitecture": "x64",
+        }
+    ]
+}
